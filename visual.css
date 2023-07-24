@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital@1 & display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    background: #f1f1f1;
+    color: #0f141e;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding: 30px;
+}
+
+.btn {
+    background: rgb(215, 215, 215);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: inherit;
+}
+
+
+.btn:hover {
+    background-color: rgb(200, 200, 200);
+    opacity: 0.9;
+    color: black;
+}
+
+.btn:active {
+    color: darkblue;
+}
+
+.btn1 {
+    background: rgb(200, 200, 200);
+    border: rgb(250, 250, 250);
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.btn1:hover {
+    background-color: rgb(250, 250, 250);
+    opacity: 0.9;
+    color: black;
+}
+
+.btn1:active {
+    color: darkblue;
+}
+
+.info {
+    margin: 10px;
+    display: flex;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+.info-text {
+    margin-left: 40px;
+}
+.photo1{
+border-radius: 30px;
+width: 250px;
+height: 250px;
+box-shadow: 4px 4px 14px rgba(0,0,0,0.70);
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 0px;
+}
+.info-text h3 {
+    margin-bottom: 10px;
+}
+
+.hobbi {
+    background: rgb(225, 160, 160);
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    
+}
+
+
+.exp {
+    background: rgb(160, 160, 225);
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.work {
+    background: rgb(225, 225, 160);
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.work a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.work a:hover {
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+.contact {
+    background: rgb(160, 225, 160);
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+
+.list li {
+    color: rgb(60, 60, 60);
+    margin-bottom: 10px;
+
+}
+
+.work-list {
+
+    list-style: none;
+    padding: 0;
+}
+
+.work-list li {
+    margin: 10px;
+    border-bottom: 1px solid #a3a3a3;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color:rgb(60, 60, 60)
+}
+
+.form h2{
+    text-align: center;
+}
+.form-gr {
+    margin: 10px;
+}
+
+.form-gr label {
+    display: block;
+    font-size: 14px;
+    color: rgb(60, 60, 60);
+}
+
+.form-gr input, .form-gr textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(60, 60, 60);
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family:inherit;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    padding: 0px;
+    display: flex;
+
+
+}
+
+.form-row .form-gr{
+/* display: inline-block; */
+margin-right: 10px;
+width: 50%;
+/* width: calc (50%-20px); */
+
+}
+
+.form-row .form-gr:last-child {
+margin-right: 0;
+}
+
+@media (max-width: 650px) {
+    .form-row {
+        display: block;
+}}
+
+.form-row .form-gr {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
